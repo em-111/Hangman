@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hangman Game</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Hangman Game</h1>
+
+        <h2 id="question"></h2>
+
+        <div id="answer"></div>
+
+        <div id="buttonGrid" class="not-this"></div>
+
+        <div id="t_i">
+            <p>Time : <span id="time">200</span> seconds</p>
+            <p>Guesses : <span id="incorrectGuess">5</span></p>
+        </div>
+
+        <div id="gameResult"></div>
+
+        <div id="start-next">
+            <button id="startGame">Start Game</button>
+            <button id="nextQuestion">Next Question</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

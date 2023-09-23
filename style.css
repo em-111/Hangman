@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#question {
+    text-align: center;
+}
+
+#answer {
+    display: flex;
+    gap: 10px;
+}
+
+#answer p {
+    border-bottom: 1px solid black;
+}
+
+#answer span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonGrid {
+    width: 440px;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 10px;
+}
+
+.buttons {
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    color: #00296b;
+    background-color: #ffe169;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+#gameResult {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#startGame,
+#nextQuestion {
+    font-size: 20px;
+    padding: 15px 45px;
+    color: #00296b;
+    background-color: #ffe169;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextQuestion {
+    display: none;
+}
+
+.correct {
+    color: #fff;
+    background-color: #29bf12;
+    border-radius: 5px;
+}
+
+.incorrect {
+    color: #fff;
+    background-color: #ff3c38;
+    border-radius: 5px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+}
+
+@media only screen and (max-width: 820px) {
+    #question {
+        width: 95vw;
+    }
+
+    #answer {
+        display: flex;
+        gap: 5px;
+    }
+
+    #answer p {
+        border-bottom: 1px solid black;
+    }
+
+    #answer span {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #buttonGrid {
+        width: 290px;
+        gap: 5px;
+    }
+
+    .buttons {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #start-next {
+        margin-bottom: 70px;
+    }
+}
