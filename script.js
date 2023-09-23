@@ -39,6 +39,98 @@ let hangmanArray = [
         q: "What is the study of the Earth's history as revealed in rock layers?",
         a: "Geology",
     },
+    {
+        q: "What is the largest desert in the world, known for its vast sand dunes?",
+        a: "Sahara",
+    },
+    {
+        q: "What is the largest mammal in the world?",
+        a: "Whale",
+    },
+    {
+        q: "What is the largest ocean on Earth?",
+        a: "Pacific",
+    },
+    {
+        q: "What is the tallest mountain in the world?",
+        a: "Everest",
+    },
+    {
+        q: "What is the capital of Kosova?",
+        a: "Prishtina",
+    },
+    {
+        q: "What is the capital of Albania?",
+        a: "Tirana",
+    },
+    {
+        q: "What is the largest organ in the human body?",
+        a: "Skin",
+    },
+    {
+        q: "Who wrote 'The Iliad and Odyssey'?",
+        a: "Homer",
+    },
+    {
+        q: "Where is the Great Pyramid of Giza located, one of the Seven Wonders of the Ancient World?",
+        a: "Egypt",
+    },
+    {
+        q: "In which country was the game of football first played?",
+        a: "England",
+    },
+    {
+        q: "Which country is famous for the ancient city of Machu Picchu?",
+        a: "Peru",
+    },
+    {
+        q: "Inventor of the telephone?",
+        a: "Bell",
+    },
+    {
+        q: "Unit of electrical resistance?",
+        a: "Ohm",
+    },
+    {
+        q: "Code language used for creating web pages?",
+        a: "HTML",
+    },
+    {
+        q: "Protocol for secure data transmission over the internet?",
+        a: "HTTPS",
+    },
+    {
+        q: "Device used to connect to the internet via a telephone line?",
+        a: "Modem",
+    },
+    {
+        q: "Open-source operating system known for its penguin mascot?",
+        a: "Linux",
+    },
+    {
+        q: "Digital currency based on blockchain technology?",
+        a: "Cryptocurrency",
+    },
+    {
+        q: "Portable computer input device used for pointing and clicking?",
+        a: "Mouse",
+    },
+    {
+        q: "Sport involving punches, jabs, and knockouts?",
+        a: "Boxing",
+    },
+    {
+        q: "Team sport with a round ball and goals, played on a pitch?",
+        a: "Football",
+    },
+    {
+        q: "Water sport where participants ride on a board and catch waves?",
+        a: "Surfing",
+    },
+    {
+        q: "Individual sport involving a bicycle and races against the clock?",
+        a: "Cycling",
+    },
 ];
 
 let alphabet = [
@@ -125,6 +217,7 @@ nextQuestion.addEventListener("click", () => {
         let button = document.createElement("button");
         button.textContent = a;
         button.classList.add("buttons");
+        button.disabled = true;
         buttonGrid.appendChild(button);
     });
 })();
