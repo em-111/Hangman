@@ -108,9 +108,7 @@ startGame.addEventListener("click", () => {
         }
     }, 1000);
 
-    for (let i = 0; i < buttonGrid.children.length; i++) {
-        buttonGrid.children[i].disabled = false;
-    }
+    clearGrid();
 
     printQuestion();
 });
