@@ -4,6 +4,10 @@ let hangmanArray = [
         a: "Prishtina",
     },
     {
+        q: "What is the capital of Albania?",
+        a: "Tirana",
+    },
+    {
         q: "In which country was the game of football first played?",
         a: "England",
     },
@@ -48,10 +52,6 @@ let hangmanArray = [
         a: "Surfing",
     },
     {
-        q: "Portable computer input device used for pointing and clicking?",
-        a: "Mouse",
-    },
-    {
         q: "Inventor of the telephone?",
         a: "Bell",
     },
@@ -72,28 +72,12 @@ let hangmanArray = [
         a: "Mars",
     },
     {
-        q: "Device used to connect to the internet via a telephone line?",
-        a: "Modem",
-    },
-    {
         q: "Individual sport involving a bicycle and races against the clock?",
         a: "Cycling",
     },
     {
-        q: "Protocol for secure data transmission over the internet?",
-        a: "HTTPS",
-    },
-    {
         q: "What is the largest mammal in the world?",
         a: "Whale",
-    },
-    {
-        q: "What is the capital of Albania?",
-        a: "Tirana",
-    },
-    {
-        q: "Open-source operating system known for its penguin mascot?",
-        a: "Linux",
     },
     {
         q: "What is the study of the Earth's history as revealed in rock layers?",
@@ -122,6 +106,86 @@ let hangmanArray = [
     {
         q: "What is the largest organ in the human body?",
         a: "Skin",
+    },
+    {
+        q: "What is the smallest unit of matter?",
+        a: "Atom",
+    },
+    {
+        q: "What gas do plants absorb from the atmosphere during photosynthesis?",
+        a: "Carbon",
+    },
+    {
+        q: "What is the process by which plants make their own food using sunlight?",
+        a: "Photosynthesis",
+    },
+    {
+        q: "What is the study of the Earth's atmosphere called?",
+        a: "Meteorology",
+    },
+    {
+        q: "What force keeps planets in orbit around the sun?",
+        a: "Gravity",
+    },
+    {
+        q: "What is the study of the behavior and properties of matter?",
+        a: "Chemistry",
+    },
+    {
+        q: "What is the process by which a caterpillar becomes a butterfly?",
+        a: "Metamorphosis",
+    },
+    {
+        q: "What is the powerhouse of the cell?",
+        a: "Mitochondria",
+    },
+    {
+        q: "What is the largest internal organ in the human body?",
+        a: "Liver",
+    },
+    {
+        q: "What is the body's primary organ for hearing?",
+        a: "Ear",
+    },
+    {
+        q: "What is the molecule that carries genetic information?",
+        a: "DNA",
+    },
+    {
+        q: "What is the longest river in Africa?",
+        a: "Nile",
+    },
+    {
+        q: "What is the capital of Brazil?",
+        a: "Brasilia",
+    },
+    {
+        q: "What country is known as the Land of the Rising Sun?",
+        a: "Japan",
+    },
+    {
+        q: "What is the smallest continent by land area?",
+        a: "Australia",
+    },
+    {
+        q: "What is the term for the total value of all goods and services produced within a country in a given year?",
+        a: "GDP",
+    },
+    {
+        q: "What economic term describes a period of declining economic activity when businesses and unemployment rates rise?",
+        a: "Recession",
+    },
+    {
+        q: "What term describes a sustained increase in the general price level of goods and services in an economy?",
+        a: "Inflation",
+    },
+    {
+        q: "Which economic system is characterized by government ownership of key industries and central planning of economic activities?",
+        a: "Socialism",
+    },
+    {
+        q: "What is the term for a massive, gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter?",
+        a: "Galaxy",
     },
 ];
 
