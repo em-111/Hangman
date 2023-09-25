@@ -1,9 +1,3 @@
-/*
-	CODE TO ADD
-		~ let answeredQuestions = 0;
-        ~ let skipQuestions = 0;
-*/
-
 let hangmanArray = [
     {
         q: "What is the capital of Kosova?",
