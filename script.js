@@ -191,6 +191,10 @@ let hangmanArray = [
         q: "What is the term for a massive, gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter?",
         a: "Galaxy",
     },
+    {
+        q: "Digital currency based on blockchain technology?",
+        a: "Cryptocurrency",
+    },
 ];
 
 let alphabet = [
