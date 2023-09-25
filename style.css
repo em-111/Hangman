@@ -44,6 +44,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 
 #buttonGrid {
@@ -91,13 +92,13 @@ h1 {
 .correct {
     color: #fff;
     background-color: #29bf12;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .incorrect {
     color: #fff;
     background-color: #ff3c38;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .hide {
@@ -115,7 +116,7 @@ h1 {
 
     #answer {
         display: flex;
-        gap: 5px;
+        gap: 2px;
     }
 
     #answer p {
@@ -123,9 +124,9 @@ h1 {
     }
 
     #answer span {
-        width: 30px;
-        height: 30px;
-        font-size: 16px;
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
     }
 }
 

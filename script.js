@@ -1,136 +1,134 @@
+/*
+	CODE TO ADD
+		~ let answeredQuestions = 0;
+        ~ let skipQuestions = 0;
+*/
+
 let hangmanArray = [
-    {
-        q: "What is the largest desert in the world, known for its vast sand dunes?",
-        a: "Sahara",
-    },
-    {
-        q: "Which gas makes up about 78% of Earth's atmosphere?",
-        a: "Nitrogen",
-    },
-    {
-        q: 'Which element, with the symbol "Na," is essential for nerve function in the human body?',
-        a: "Sodium",
-    },
-    {
-        q: 'Who wrote the play "Romeo and Juliet"?',
-        a: "Shakespeare",
-    },
-    {
-        q: "Which famous scientist developed the theory of relativity?",
-        a: "Einstein",
-    },
-    {
-        q: "Which planet is known as the Red Planet?",
-        a: "Mars",
-    },
-    {
-        q: 'Which planet in our solar system is often called the "Morning Star", or "Evening Star" and is known for its brightness?',
-        a: "Venus",
-    },
-    {
-        q: 'Which element, with the symbol "Au," is often used in making jewelry?',
-        a: "Gold",
-    },
-    {
-        q: "What is the smallest planet in our solar system?",
-        a: "Mercury",
-    },
-    {
-        q: "What is the study of the Earth's history as revealed in rock layers?",
-        a: "Geology",
-    },
-    {
-        q: "What is the largest desert in the world, known for its vast sand dunes?",
-        a: "Sahara",
-    },
-    {
-        q: "What is the largest mammal in the world?",
-        a: "Whale",
-    },
-    {
-        q: "What is the largest ocean on Earth?",
-        a: "Pacific",
-    },
-    {
-        q: "What is the tallest mountain in the world?",
-        a: "Everest",
-    },
     {
         q: "What is the capital of Kosova?",
         a: "Prishtina",
     },
     {
-        q: "What is the capital of Albania?",
-        a: "Tirana",
-    },
-    {
-        q: "What is the largest organ in the human body?",
-        a: "Skin",
-    },
-    {
-        q: "Who wrote 'The Iliad and Odyssey'?",
-        a: "Homer",
-    },
-    {
-        q: "Where is the Great Pyramid of Giza located, one of the Seven Wonders of the Ancient World?",
-        a: "Egypt",
-    },
-    {
         q: "In which country was the game of football first played?",
         a: "England",
     },
-    {
-        q: "Which country is famous for the ancient city of Machu Picchu?",
-        a: "Peru",
-    },
-    {
-        q: "Inventor of the telephone?",
-        a: "Bell",
-    },
-    {
-        q: "Unit of electrical resistance?",
-        a: "Ohm",
-    },
-    {
-        q: "Code language used for creating web pages?",
-        a: "HTML",
-    },
-    {
-        q: "Protocol for secure data transmission over the internet?",
-        a: "HTTPS",
-    },
-    {
-        q: "Device used to connect to the internet via a telephone line?",
-        a: "Modem",
-    },
-    {
-        q: "Open-source operating system known for its penguin mascot?",
-        a: "Linux",
-    },
-    {
-        q: "Digital currency based on blockchain technology?",
-        a: "Cryptocurrency",
-    },
-    {
-        q: "Portable computer input device used for pointing and clicking?",
-        a: "Mouse",
-    },
-    {
-        q: "Sport involving punches, jabs, and knockouts?",
-        a: "Boxing",
-    },
-    {
-        q: "Team sport with a round ball and goals, played on a pitch?",
-        a: "Football",
-    },
-    {
-        q: "Water sport where participants ride on a board and catch waves?",
-        a: "Surfing",
-    },
-    {
-        q: "Individual sport involving a bicycle and races against the clock?",
-        a: "Cycling",
-    },
+    // {
+    //     q: "What is the largest ocean on Earth?",
+    //     a: "Pacific",
+    // },
+    // {
+    //     q: "Sport involving punches, jabs, and knockouts?",
+    //     a: "Boxing",
+    // },
+    // {
+    //     q: 'Which planet in our solar system is often called the "Morning Star", or "Evening Star" and is known for its brightness?',
+    //     a: "Venus",
+    // },
+    // {
+    //     q: "Who wrote 'The Iliad and Odyssey'?",
+    //     a: "Homer",
+    // },
+    // {
+    //     q: "What is the largest desert in the world, known for its vast sand dunes?",
+    //     a: "Sahara",
+    // },
+    // {
+    //     q: "Which famous scientist developed the theory of relativity?",
+    //     a: "Einstein",
+    // },
+    // {
+    //     q: "Digital currency based on blockchain technology?",
+    //     a: "Cryptocurrency",
+    // },
+    // {
+    //     q: "Code language used for creating web pages?",
+    //     a: "HTML",
+    // },
+    // {
+    //     q: "Which gas makes up about 78% of Earth's atmosphere?",
+    //     a: "Nitrogen",
+    // },
+    // {
+    //     q: "Water sport where participants ride on a board and catch waves?",
+    //     a: "Surfing",
+    // },
+    // {
+    //     q: "Portable computer input device used for pointing and clicking?",
+    //     a: "Mouse",
+    // },
+    // {
+    //     q: "Inventor of the telephone?",
+    //     a: "Bell",
+    // },
+    // {
+    //     q: "Unit of electrical resistance?",
+    //     a: "Ohm",
+    // },
+    // {
+    //     q: "Which country is famous for the ancient city of Machu Picchu?",
+    //     a: "Peru",
+    // },
+    // {
+    //     q: "What is the tallest mountain in the world?",
+    //     a: "Everest",
+    // },
+    // {
+    //     q: "Which planet is known as the Red Planet?",
+    //     a: "Mars",
+    // },
+    // {
+    //     q: "Device used to connect to the internet via a telephone line?",
+    //     a: "Modem",
+    // },
+    // {
+    //     q: "Individual sport involving a bicycle and races against the clock?",
+    //     a: "Cycling",
+    // },
+    // {
+    //     q: "Protocol for secure data transmission over the internet?",
+    //     a: "HTTPS",
+    // },
+    // {
+    //     q: "What is the largest mammal in the world?",
+    //     a: "Whale",
+    // },
+    // {
+    //     q: "What is the capital of Albania?",
+    //     a: "Tirana",
+    // },
+    // {
+    //     q: "Open-source operating system known for its penguin mascot?",
+    //     a: "Linux",
+    // },
+    // {
+    //     q: "What is the study of the Earth's history as revealed in rock layers?",
+    //     a: "Geology",
+    // },
+    // {
+    //     q: 'Who wrote the play "Romeo and Juliet"?',
+    //     a: "Shakespeare",
+    // },
+    // {
+    //     q: "What is the smallest planet in our solar system?",
+    //     a: "Mercury",
+    // },
+    // {
+    //     q: "Where is the Great Pyramid of Giza located, one of the Seven Wonders of the Ancient World?",
+    //     a: "Egypt",
+    // },
+    // {
+    //     q: "Which element, with the symbol 'Au,' is often used in making jewelry?",
+    //     a: "Gold",
+    // },
+    // {
+    //     q: 'Which element, with the symbol "Na," is essential for nerve function in the human body?',
+    //     a: "Sodium",
+    // },
+    // {
+    //     q: "What is the largest organ in the human body?",
+    //     a: "Skin",
+    // },
 ];
 
 let alphabet = [
@@ -177,6 +175,8 @@ let score = 0;
 let attempts = 0;
 let children;
 let newArr;
+let answeredQuestions = 0;
+let skipQuestions = 0;
 
 /* BUTTON TO START THE GAME */
 startGame.addEventListener("click", () => {
@@ -184,6 +184,8 @@ startGame.addEventListener("click", () => {
     guesses = 5;
     attempts = 0;
     score = 0;
+    answeredQuestions = 0;
+    skipQuestions = 0;
     gameResult.innerHTML = "";
 
     newArr = [...hangmanArray];
@@ -207,6 +209,7 @@ startGame.addEventListener("click", () => {
 
 /* BUTTON TO DISPLAY NEXT QUESTION */
 nextQuestion.addEventListener("click", () => {
+    skipQuestions++;
     clearGrid();
     printQuestion();
 });
@@ -289,6 +292,8 @@ function checkSpan(event) {
             });
 
             if (l === 0) {
+                answeredQuestions++;
+
                 spanArray.forEach((value) => {
                     value.classList.add("correct");
                 });
@@ -330,21 +335,43 @@ function endgame() {
         buttonGrid.children[i].disabled = true;
     }
 
-    if (newArr.length === 0) {
-        gameResult.innerHTML = `<h3>Congratulations! You found all the answers. Great job!</h3>
+    if (newArr.length === 0 && skipQuestions === 0) {
+        gameResult.innerHTML = `<h3 style="margin-bottom: 20px;">Congratulations! You've found all the words. You're a Hangman master!</h3>
         <p>Your Score : ${score}</p>
-        <p>Total attempts : ${attempts}</p>`;
+        <p>Total Attempts : ${attempts}</p>
+        <p>Words Guessed : ${answeredQuestions}</p>
+        <p>Words Skipped : ${skipQuestions}</p>`;
+    }
+
+    if (answeredQuestions === 0) {
+        gameResult.innerHTML = `<h3 style="margin-bottom: 20px;">Oops! It seems you didn't guess any words this time. Give it another try!</h3>
+        <p>Your Score : ${score}</p>
+        <p>Total Attempts : ${attempts}</p>
+        <p>Words Guessed : ${answeredQuestions}</p>
+        <p>Words Skipped : ${skipQuestions}</p>`;
+    }
+
+    if (newArr.length === 0 && skipQuestions > 0) {
+        gameResult.innerHTML = `<h3 style="margin-bottom: 20px;">You've found some words, but there are still more to discover!</h3>
+        <p>Your Score : ${score}</p>
+        <p>Total Attempts : ${attempts}</p>
+        <p>Words Guessed : ${answeredQuestions}</p>
+        <p>Words Skipped : ${skipQuestions}</p>`;
     }
 
     if (guesses === 0) {
-        gameResult.innerHTML = `<h3>Oops! You made too many mistakes. Better luck next time!</h3>
+        gameResult.innerHTML = `<h3 style="margin-bottom: 20px;">Oops! You made too many mistakes. Better luck next time!</h3>
         <p>Your Score : ${score}</p>
-        <p>Total attempts : ${attempts}</p>`;
+        <p>Total Attempts : ${attempts}</p>
+        <p>Words Guessed : ${answeredQuestions}</p>
+        <p>Words Skipped : ${skipQuestions}</p>`;
     }
 
     if (seconds === 0) {
-        gameResult.innerHTML = `<h3>Time's up! Game over. You can try again to beat the clock!</h3>
+        gameResult.innerHTML = `<h3 style="margin-bottom: 20px;">Time's up! Game over. You can try again to beat the clock!</h3>
         <p>Your Score : ${score}</p>
-        <p>Total attempts : ${attempts}</p>`;
+        <p>Total Attempts : ${attempts}</p>
+        <p>Words Guessed : ${answeredQuestions}</p>
+        <p>Words Skipped : ${skipQuestions}</p>`;
     }
 }
